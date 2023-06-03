@@ -1,18 +1,12 @@
-# Twitter Bot Alert USDC
+# Telegram Bot Alert USDC and USDT
 
 This Project i learn about 
 - ether js, 
 - nodejs,  
-- twitter api v2 
+- telegram api
 
- this is my first project learn on web3, espesialy thanks to dappuniversity i got inspiration from this youtube video 
-
-
-[![Watch the video](https://img.youtube.com/vi/u_lwNJobmAI/maxresdefault.jpg)](https://youtu.be/u_lwNJobmAI)
-
-
-
-Twitter Bot Alert USDC is a bot that tracks large transfers of USDC (USD Coin) on the Ethereum blockchain and alerts about them on Twitter.
+ 
+Telegram Bot Alert USDC is a bot that tracks large transfers of USDC (USD Coin) and USDT (usd tether) on the Ethereum blockchain and alerts about them on Telegram channel.
 
 
 ## Prerequisites
@@ -20,7 +14,7 @@ Twitter Bot Alert USDC is a bot that tracks large transfers of USDC (USD Coin) o
 Before running the bot, make sure you have the following:
 
 - Node.js 
-- API credentials from Twitter 
+- API credentials from Telegram
 - RPC URL for the Ethereum network you can use infura, alchemy or your own node
 
 ## Installation
@@ -43,15 +37,14 @@ Before running the bot, make sure you have the following:
 
 
    ```bash
-   RPC_URL=YOUR_RPC_URL
-   API_KEY=YOUR_CONSUMER_KEY
-   API_SECRET=YOUR_CONSUMER_SECRET
-   ACCESS_TOKEN=YOUR_ACCESS_TOKEN
-   ACCESS_TOKEN_SECRET=YOUR_ACCESS_TOKEN_SECRET
-   BEARER_TOKEN=YOUR_BEARER_TOKEN
+
+      RPC_URL=yourvalue
+      TELEGRAM_KEY=yourvalue
+      CHAT_ID=yourvalue
+   
 
    
-Replace YOUR_RPC_URL, YOUR_CONSUMER_KEY, YOUR_CONSUMER_SECRET, YOUR_ACCESS_TOKEN, YOUR_ACCESS_TOKEN_SECRET and YOUR_BEARER_TOKEN  with your actual values.
+Replace  with your actual values.
 
 
 
@@ -62,7 +55,7 @@ Replace YOUR_RPC_URL, YOUR_CONSUMER_KEY, YOUR_CONSUMER_SECRET, YOUR_ACCESS_TOKEN
       npm start
 
 
-The bot will listen for large transfers of USDC and post alerts on Twitter.
+The bot will listen for large transfers of USDC and post alerts on Telegram Channel.
 
 
 
